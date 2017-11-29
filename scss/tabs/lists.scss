@@ -1,0 +1,16 @@
+@use "../variables" as *;
+
+#user-lists .list {
+	top: 95px;
+
+	.user:hover {
+		background-color: $smoky-black;
+	}
+
+	&.staff {
+		.group, .group:first-child {
+			background-color: $smoky-black;
+			border: none;
+		}
+	}
+}

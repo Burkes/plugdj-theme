@@ -1,0 +1,18 @@
+{
+  "name": "plugdj-theme",
+  "version": "1.0.0",
+  "description": "plug.dj theme for personal use",
+  "repository": "git@github.com:Burkes/plugdj-theme.git",
+  "author": "Burkes",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "yarn build:scss && yarn build:css",
+    "build:css": "lightningcss css/theme.css -o css/theme.css --browserslist --minify",
+    "build:scss": "sass --style=compressed --no-source-map index.scss css/theme.css"
+  },
+  "devDependencies": {
+    "lightningcss-cli": "1.32.0",
+    "sass": "1.101.0"
+  }
+}

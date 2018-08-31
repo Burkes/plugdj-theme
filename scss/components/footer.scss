@@ -1,0 +1,87 @@
+#footer {
+	background-color: $licorice-black;
+	box-shadow: none;
+
+	#playlist-meta {
+		.social-menu {
+			display: none;
+		}
+
+		#playlist-button {
+			background: $cerulean;
+			box-shadow: none;
+		}
+
+		.bar-button {
+			.section .chevron:after,
+			.section .chevron:before {
+				background-color: $eerie-black;
+			}
+
+			#your-next-media .icon.icon-next-track  {
+				@include mask(-35px -35px, $cerulean);
+			}
+
+			#your-active-playlist .icon.icon-check-purple {
+				@include mask(-35px -140px, $cerulean);
+			}
+		}
+	}
+
+	#footer-user {
+		.buttons .button {
+			box-shadow: none;
+
+			&.inventory:hover,
+			&:hover {
+				background-color: $eerie-black;
+				box-shadow: none;
+			}
+
+			&.inventory .background {
+				display: none;
+			}
+		}
+
+		.info {
+			background-color: $eerie-black;
+			height: 62px;
+			top: -61px;
+
+			.meta {
+				.level {
+					bottom: 4px;
+				}
+
+				.points {
+					right: 5px;
+				}
+
+				.bar {
+					background-color: $licorice-black;
+					margin-top: 3px;
+					height: 20px;
+
+					.progress {
+						background-color: $cerulean;
+					}
+
+					.value {
+						font-size: 14px;
+						top: 0;
+					}
+				}
+			}
+		}
+
+		.back {
+			background-color: $eerie-black;
+			color: $nickel-grey;
+
+			&:hover {
+				background-color: $raisin-black;
+				color: $snow-white;
+			}
+		}
+	}
+}

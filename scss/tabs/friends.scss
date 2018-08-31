@@ -1,0 +1,85 @@
+#room,
+#dashboard-border {
+	.app-right .friends  {
+		background-color: $rich-black;
+
+		.header {
+			background-color: $licorice-black;
+			color: $nickel-grey;
+
+			&:hover {
+				background-color: $eerie-black;
+				color: $snow-white;
+			}
+		}
+
+		.list-header {
+			background-color: $licorice-black;
+			border: none;
+
+			.input-background {
+				background-color: $smoky-black;
+				box-shadow: none;
+				height: 40px;
+				width: 160px;
+				right: 5px;
+				top: 4px;
+
+				input {
+					color: $nickel-grey;
+					left: 15px;
+					top: 10px;
+
+					&:focus {
+						color: $snow-white;
+					}
+				}
+
+				.focused {
+					outline: solid 1px $cerulean;
+					box-shadow: none;
+				}
+			}
+
+			.clear-filter {
+				right: 15px;
+			}
+		}
+
+		.list .row.is-offline {
+			&.is-admin .name span {
+				color: $admin;
+			}
+
+			&.is-ambassador .name span {
+				color: $ambassador;
+			}
+
+			&.is-sitemod .name span {
+				color: $sitemod;
+			}
+
+			&.is-plot .name span {
+				color: $plot;
+			}
+
+			&.is-promoter .name span {
+				color: $promoter;
+			}
+		}
+	}
+}
+
+#room .app-right .friends {
+	.header {
+		background-color: $rich-black;
+
+		&:hover {
+			background-color: $licorice-black;
+		}
+	}
+
+	.list-header {
+		background-color: $rich-black;
+	}
+}

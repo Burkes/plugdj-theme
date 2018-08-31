@@ -1,0 +1,9 @@
+$burkes-green: #84B423;
+
+#{$user-burkes} {
+	#footer-user .info .name,
+	#user-lists #{$user-burkes} .name,
+	#waitlist .list .user[data-uid^="#{$id-burkes}"] .name {
+		color: $burkes-green;
+	}
+}

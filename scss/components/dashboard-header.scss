@@ -1,0 +1,14 @@
+#dashboard-border {
+	.app-header {
+		background-color: $licorice-black;
+		border-box: none;
+
+		.support {
+			background-color: $eerie-black;
+
+			&:hover {
+				background-color: $raisin-black;
+			}
+		}
+	}
+}

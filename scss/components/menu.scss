@@ -1,0 +1,48 @@
+#app-menu {
+	background-color: $eerie-black;
+	box-shadow: none;
+	border: none;
+
+	&.open {
+		box-shadow: none;
+	}
+
+	.list {
+		background-color: $eerie-black;
+		color: $nickel-grey;
+
+		.item {
+			box-shadow: none;
+
+			&:hover {
+				background-color: $raisin-black;
+				color: $snow-white;
+			}
+		}
+
+		.appbadges {
+			.android-badge {
+				background-size: 135px 45px;
+				width: 135px;
+				height: 45px;
+			}
+
+			.iphone-badge {
+				background-size: 135px 40px;
+				width: 135px;
+				height: 40px;
+			}
+		}
+
+		.logout {
+			background-color: $licorice-black;
+			border: none;
+
+			&:hover {
+				background-color: $raisin-black;
+				color: $snow-white;
+				border: none;
+			}
+		}
+	}
+}

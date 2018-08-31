@@ -1,0 +1,275 @@
+#dashboard.small-cards .box .grid .cell {
+	margin: 0 5px 5px 0;
+	background-color: $licorice-black;
+
+	.bar {
+		background-color: $eerie-black;
+
+		.favorite {
+			background-color: $raisin-black;
+		}
+
+		@include normal {
+			left: 191px;
+			width: calc(100% - 191px);
+		}
+
+		@include max-normal {
+			left: 170px;
+			width: calc(100% - 170px);
+
+			.population {
+				left: 3.5px;
+			}
+		}
+	}
+
+	.media {
+		top: 0px;
+
+		img[src^="//img.youtube"] {
+			top: -22px;
+
+			@include normal {
+				height: calc(100% + 44px);
+			}
+
+			@include max-normal {
+				height: calc(100% + 42px);
+			}
+		}
+
+		@include normal {
+			width: 191px;
+			height: 128px;
+		}
+
+		@include max-normal {
+			width: 170px;
+			height: 112px;
+		}
+	}
+
+	.meta {
+		background-color: $licorice-black;
+		height: 103px;
+
+		div {
+			float: none;
+			// width: 52%;
+		}
+
+		.divider {
+			display: none;
+		}
+
+		.room {
+			@include normal {
+				width: 52%;
+			}
+
+			@include max-normal {
+				width: 54%;
+				margin-top: 3px;
+				font-size: 16px;
+			}
+		}
+
+		.host {
+			@include normal {
+				width: 52%;
+			}
+
+			@include max-normal {
+				width: 54%;
+				font-size: 11px;
+			}
+		}
+
+		.now-playing {
+			@include normal {
+				margin-left: 10px;
+				width: 50%;
+			}
+
+			@include max-normal {
+				margin-left: 5px;
+				width: 55%;
+			}
+
+			@include small {
+				width: 65%;
+			}
+		}
+
+		.friends {
+			top: -35px;
+			z-index: 3;
+
+			.image {
+				float: left;
+			}
+
+			div:nth-child(5),
+			div:nth-child(6) {
+				display: none;
+			}
+
+			@include normal {
+				margin-left: -183px;
+			}
+
+			@include max-normal {
+				margin-left: -160px;
+			}
+		}
+
+		.join {
+			float: none;
+			border: none;
+			background: rgba(0, 0, 0, 0.75);
+			position: absolute;
+			top: 110px;
+
+			.label {
+				margin-top: 25%;
+
+				@include max-normal {
+					font-size: 17px;
+				}
+			}
+
+			@include normal {
+				margin-left: -191px;
+				max-width: 189px;
+				max-height: 130px;
+				height: 130px;
+			}
+
+			@include max-normal {
+				margin-left: -168px;
+				max-width: 168px;
+				max-height: 113px;
+				height: 113px;
+			}
+		}
+
+		@include normal {
+			margin-top: 25px;
+			margin-left: 191px;
+		}
+
+		@include max-normal {
+			margin-top: 17.5px;
+			margin-left: 168px;
+		}
+	}
+
+	&:hover {
+		.meta {
+			background-color: $licorice-black;
+
+			.room {
+				white-space: nowrap;
+			}
+
+			.now-playing {
+				white-space: nowrap;
+
+				@include normal {
+					margin-top: -21px;
+				}
+
+				@include max-normal {
+					margin-top: -28px;
+				}
+			}
+
+			.friends {
+				top: -35px;
+				z-index: 3;
+
+				@include normal {
+					margin-left: -183px;
+				}
+
+				@include max-normal {
+					margin-left: -160px;
+				}
+			}
+
+			.join {
+				border: none;
+				background: rgba(0, 0, 0, 0.75);
+				top: -44px;
+
+				@include normal {
+					margin-left: -191px;
+					max-width: 189px;
+					max-height: 130px;
+				}
+
+				@include max-normal {
+					margin-left: -168px;
+					max-width: 168px;
+					max-height: 113px;
+				}
+			}
+
+			@include normal {
+				margin-top: 43.4px;
+				margin-left: 191px;
+			}
+
+			@include max-normal {
+				margin-top: 42.9px;
+				margin-left: 168px;
+			}
+		}
+	}
+
+	&:first-child {
+		border: 2px solid $cerulean;
+		box-sizing: border-box;
+	}
+
+	&.no-media {
+		.media {
+			@include normal {
+				width: 189px;
+				background-size: 757px 128px;
+				background-position: -189px;
+			}
+
+			@include max-normal {
+				width: 168px;
+				background-size: 675px 112px;
+				background-position: -169px;
+			}
+
+			@include tiny {
+				width: 168px;
+			}
+		}
+	}
+
+	&.tastycat {
+		.media {
+			background-position: 0px;
+		}
+	}
+
+	@include normal {
+		width: 32.7%;
+		height: 128px;
+	}
+
+	@include max-normal {
+		width: 48.62%;
+		height: 112px;
+	}
+
+	@include tiny {
+		width: 49%;
+	}
+}

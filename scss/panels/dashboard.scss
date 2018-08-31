@@ -1,0 +1,93 @@
+#dashboard {
+	background-color: $smoky-black;
+
+	.tab-menu {
+		padding-bottom: 0;
+		height: 50px;
+
+		button {
+			box-shadow: none;
+			background-color: $licorice-black;
+			color: $nickel-grey;
+
+			&.selected {
+				background-color: $cerulean;
+				color: $snow-white;
+			}
+
+			&:hover:not(.selected) {
+				background-color: $eerie-black;
+				color: $snow-white;
+			}
+		}
+	}
+
+	.search {
+		background-color: $rich-black;
+		box-shadow: none;
+		margin-bottom: 0;
+		height: 50px;
+
+		.icon {
+		    top: 10px;
+		    left: 15px;
+		}
+
+		input {
+    		padding: 0 25px 0 60px;
+
+			@include large {
+				width: 95.4%;
+			}
+
+    		@include big {
+    			width: 94.6%;
+    		}
+
+    		@include normal {
+    			width: 93.5%;
+    		}
+
+    		@include small {
+    			width: 91.9%;
+    		}
+
+    		@include tiny {
+    			width: 89.2%;
+    		}
+
+			&:focus {
+				outline: solid 2px $cerulean;
+			}
+		}
+	}
+
+	.box {
+		padding-top: 25px !important;
+
+		.grid .cell {
+			background-color: $licorice-black;
+
+			.bar {
+				background-color: $eerie-black;
+
+				.favorite {
+					background-color: $raisin-black;
+				}
+			}
+
+			.meta {
+				background-color: $licorice-black;
+
+				.join {
+					border: none;
+					background-color: $eerie-black;
+
+					&:hover {
+						background-color: $raisin-black;
+					}
+				}
+			}
+		}
+	}
+}

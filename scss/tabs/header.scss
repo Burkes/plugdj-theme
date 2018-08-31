@@ -1,0 +1,73 @@
+#user-lists {
+
+	.header {
+		border: none;
+
+		.divider {
+			display: none;
+		}
+
+		.button {
+			height: 49px;
+			width: 49px;
+			top: 0;
+
+			&.room i,
+			&.staff i,
+			&.bans i,
+			&.waitlist-bans i,
+			&.staff i,
+			&.mutes i,
+			&.ignored i {
+				left: 10px;
+				top: 8px;
+			}
+
+			&.trolls span {
+				left: 9px;
+				top: 8px;
+			}
+
+			&.selected {
+				background-color: $smoky-black;
+			}
+
+			&:hover:not(.selected) {
+				background-color: $eerie-black;
+			}
+		}
+	}
+
+	.list-header {
+		background-color: $smoky-black;
+		border: none;
+
+		.input-background {
+			background-color: $rich-black;
+			box-shadow: none;
+			height: 40px;
+			width: 160px;
+			right: 5px;
+			top: 4px;
+
+			input {
+				color: $nickel-grey;
+				left: 15px;
+				top: 10px;
+
+				&:focus {
+					color: $snow-white;
+				}
+			}
+
+			.focused {
+				outline: solid 1px $cerulean;
+				box-shadow: none;
+			}
+		}
+
+		.clear-filter {
+			right: 15px;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "plugdj-theme",
+  "version": "1.0.0",
+  "description": "plug.dj theme for personal use",
+  "repository": "git@github.com:Burkes/plugdj-theme.git",
+  "author": "Burkes <burkes-@hotmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "npm run build:scss && npm run build:prefix",
+  	"build:prefix": "postcss --use autoprefixer --map false --output css/theme.css css/theme.css",
+    "build:scss": "node-sass --output-style expanded --indent-type tab --indent-width 1 --source-map true index.scss css/theme.css",
+    "deploy": "rsync -avz ./css/* burkes.pw:/var/www/html/css"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^4.1.1"
+  }
+}

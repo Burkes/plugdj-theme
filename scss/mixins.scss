@@ -1,0 +1,42 @@
+@mixin large {
+	@media (min-width: 2211px) {
+		@content;
+	}
+}
+
+@mixin big {
+	@media (min-width: 1945px) and (max-width: 2210px) {
+		@content;
+	}
+}
+
+@mixin normal {
+	@media (min-width: 1680px) and (max-width: 1944px) {
+		@content;
+	}
+}
+
+@mixin max-normal {
+	@media (max-width: 1679px) {
+		@content;
+	}
+}
+
+@mixin small {
+	@media (min-width: 1415px) and (max-width: 1679px) {
+		@content;
+	}
+}
+
+@mixin tiny {
+	@media (max-width: 1414px) {
+		@content;
+	}
+}
+
+@mixin mask($position, $color) {
+	mask: url($icon-sheet);
+	mask-position: $position;
+	background-color: $color;
+	background-image: none;
+}

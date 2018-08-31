@@ -1,0 +1,44 @@
+#room .app-header {
+	background-color: $licorice-black;
+	box-shadow: none;
+
+	#room-bar {
+		.icon.icon-room {
+			left: 15px;
+		}
+
+		#room-name,
+		#room-host {
+			left: 60px;
+		}
+
+		.favorite.selected .icon.icon-grab {
+			@include mask(-140px -280px, $cerulean);
+		}
+
+		&:hover {
+			background-color: $smoky-black;
+		}
+	}
+
+	#history-button {
+		background-color: $eerie-black;
+		box-shadow: none;
+
+		&:hover {
+			background-color: $raisin-black;
+		}
+	}
+
+	#header-panel-bar .header-panel-button {
+		border: none;
+
+		&.selected {
+			background-color: $rich-black;
+		}
+
+		&:hover:not(.selected) {
+			background-color: $smoky-black;
+		}
+	}
+}

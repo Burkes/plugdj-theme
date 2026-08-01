@@ -120,79 +120,79 @@ is-glob@^4.0.3:
   dependencies:
     is-extglob "^2.1.1"
 
-lightningcss-cli-android-arm64@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-android-arm64/-/lightningcss-cli-android-arm64-1.32.0.tgz#e2fd72aa72027edb94c6a712342e5c7b92004e30"
-  integrity sha512-4O3QY+VdgpBZLIq4crcKOEPVAXX0p7zDoykuTVstRtyolg9XU8CntdtbxcMPSC4SkzAuM/W4KsnPAzmv6Jb5LA==
+lightningcss-cli-android-arm64@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-android-arm64/-/lightningcss-cli-android-arm64-1.33.0.tgz#4e4c9355077b13fd6320c6b8ef6160f8002d51bd"
+  integrity sha512-c0Xd7Gxaw3mNOyrb9ET1JH3JjuB69GY/6pHO4vgwEbIoHCXAt6DBg6kxr5t/oZL9LRxdnZCXF+o0Evz6kuR/xA==
 
-lightningcss-cli-darwin-arm64@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-darwin-arm64/-/lightningcss-cli-darwin-arm64-1.32.0.tgz#d4a1095998969c0affcab78cee546e4a43ab9ce1"
-  integrity sha512-Xx+zeD7bDKJZwbd1N63TJfIUHEtYspf+tqObdnQEJEvZAwmGfA4iEGrkCRT8R57tDRBDSXg3XHMDDvo/cq7gBQ==
+lightningcss-cli-darwin-arm64@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-darwin-arm64/-/lightningcss-cli-darwin-arm64-1.33.0.tgz#5020fec0c0c1b0d4a6bfb867e898627eb8bb4af7"
+  integrity sha512-sso5hSFPis7ldw2FcBopsZviSVAXWRGX8ybUwMhQHssTlERenQJ88WihZs08tCdSnQULo2kunnrGhh4VjRw8Fg==
 
-lightningcss-cli-darwin-x64@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-darwin-x64/-/lightningcss-cli-darwin-x64-1.32.0.tgz#08bd1a66be99f4f3b67a2a56e12fd3cc9050f0c4"
-  integrity sha512-fYWANZ8RJDpI0tBcPQ7oBOYihfXmgDBHR4lZ6d4z7rcRLlZAOeI00mTO0IXAKfSm/UgnatjM4aBuNlLh8L9noA==
+lightningcss-cli-darwin-x64@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-darwin-x64/-/lightningcss-cli-darwin-x64-1.33.0.tgz#0a32d096a09cc57ff8fda8189b3cd270df4ee1e4"
+  integrity sha512-/aDYpMv2QKpJoSIwvwpIs4tIX9SCU894eospSm55FR5MxDZkJDy4fEX6elsXkHCBDqbAknb4qd2h/oDMLTC4Ew==
 
-lightningcss-cli-freebsd-x64@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-freebsd-x64/-/lightningcss-cli-freebsd-x64-1.32.0.tgz#c3576e8563e1f4422fb67278193f8f41ea008050"
-  integrity sha512-TJm7z1Ghvo9FKAza2KvfkFgH/9rcV1xAhCYQZlLrV0CiuTZ17uzLobBWb9oelGWUG+wTnEs6XEl4h/ve61YySg==
+lightningcss-cli-freebsd-x64@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-freebsd-x64/-/lightningcss-cli-freebsd-x64-1.33.0.tgz#92d3ca3297e5105a1a72c13272efa47b532eef83"
+  integrity sha512-kK9u4IEAvt3+1m7lkloyfZNfXykXq2vCH7lgZ5aEqa8VuBZYqvcAIQ4Qt1593QJxbko9HEKUP0erdSxw7k7eFw==
 
-lightningcss-cli-linux-arm-gnueabihf@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm-gnueabihf/-/lightningcss-cli-linux-arm-gnueabihf-1.32.0.tgz#ef3318509e45b9c45256a120706c960670d836f6"
-  integrity sha512-/jS9L5p3eexs5QJvARiDGxibz1umKJmmtff86fWXl3r7RbEUFrMAD4q1WhAR7DurRFgc1YWld6r0mX1YHEYttA==
+lightningcss-cli-linux-arm-gnueabihf@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm-gnueabihf/-/lightningcss-cli-linux-arm-gnueabihf-1.33.0.tgz#b75184523a377cc52f49561be9dcdf0aa7a38e5d"
+  integrity sha512-4bHmUlYCb8WKdPKx2yhk8y/kD034JVuUatDMWav0uU/hEIYJrxPimWBJJ4w2lgpcWchVnk/Kuihs4vaLjO/ozw==
 
-lightningcss-cli-linux-arm64-gnu@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm64-gnu/-/lightningcss-cli-linux-arm64-gnu-1.32.0.tgz#e558fe6f91467099ece03c11815f976d6dada7cc"
-  integrity sha512-PSdjwcRtSrJpsaqnY3ebnCfDOJ5ePi8s/0ItL3CX1b1Eu0iy44xo7MjgES1ZOQ2ntOthPRqaGsbAiVBLbgFLYQ==
+lightningcss-cli-linux-arm64-gnu@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm64-gnu/-/lightningcss-cli-linux-arm64-gnu-1.33.0.tgz#4e42ee6f8e848c2d5ba02b46b531a42c94e3ebf2"
+  integrity sha512-DkYmkBix3icAZKZsxGsjBAj59CIV0zflZtsT66lCPd2z3OqBLJlhKRrw4TlAW7mIkYeOEYWKVz/G00ZGXNse4A==
 
-lightningcss-cli-linux-arm64-musl@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm64-musl/-/lightningcss-cli-linux-arm64-musl-1.32.0.tgz#7e47042ae7f2efdee5c004a6ae74cf83021490fd"
-  integrity sha512-t6DdpXFtEdonZHzRgH8cmqhC2o4tl0KrD33cDBBniJz5TmWS20MJxb4YEr4WqBLksqW8GE399HJo+g8/YVuKcA==
+lightningcss-cli-linux-arm64-musl@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-arm64-musl/-/lightningcss-cli-linux-arm64-musl-1.33.0.tgz#baf9b71cbe9b978f7dbd9a8f6652fd351246c1b9"
+  integrity sha512-euNOhzo1ysRl719HfFzRe9r9usWO2Z/Nb8RnmqXxb/kvzOgAv2BcflpoTu6tWhSrbHX6YS/WP6mMFrmII6T7Hw==
 
-lightningcss-cli-linux-x64-gnu@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-x64-gnu/-/lightningcss-cli-linux-x64-gnu-1.32.0.tgz#8986e8bf4ddf893bcd2ea86cce9388bc99402a48"
-  integrity sha512-QMQllbHYkbkQ4N+v8OGExQlGHBc3YZIcKlVkYucQQj66thkFQsRjmv8p5q3iCB0inNsCoSZ8lBspugkU1iPlPg==
+lightningcss-cli-linux-x64-gnu@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-x64-gnu/-/lightningcss-cli-linux-x64-gnu-1.33.0.tgz#1c0d9c30197999bff19721461b9c6d605476f3d3"
+  integrity sha512-9Q4DAglm17bLhA+HZPB+vxjrHXdhR/8U44zyc8MQNA5Rw+tisvcoR/lv4iuBUFn2qreYVRWQq0wP0rgdhTSxyQ==
 
-lightningcss-cli-linux-x64-musl@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-x64-musl/-/lightningcss-cli-linux-x64-musl-1.32.0.tgz#b80fc98cab7bf2d701483f8fdc0e836326ac8539"
-  integrity sha512-dMSWdk4kMAi5f+J1xetxRCDQOvPix2whT0UdjuwP8r/5Xcdl2SQU/c80MQzu1S82kVDEANs1vHVEHp/+26LUnA==
+lightningcss-cli-linux-x64-musl@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-linux-x64-musl/-/lightningcss-cli-linux-x64-musl-1.33.0.tgz#59d39525d062a871f22bae211eb383e3e8530bf6"
+  integrity sha512-+EobHdqxQ21SUMF8OU0qcizNIrLpPDaPTKQCaGbra9gL3NrW3ELG+exZl5y+WzJsEjLZ0hhjbCFjHUL/03H2JA==
 
-lightningcss-cli-win32-arm64-msvc@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-win32-arm64-msvc/-/lightningcss-cli-win32-arm64-msvc-1.32.0.tgz#bd66734157c486483f739a93931205f0c62896bf"
-  integrity sha512-MJo22OqSp9FLV10nTRDJQhP6zkEBFqBFQe9mnjfCs+G1Ft+QimIPmC+gBqZHFXveOBOsjFLzU72q0FPvRWFmZQ==
+lightningcss-cli-win32-arm64-msvc@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-win32-arm64-msvc/-/lightningcss-cli-win32-arm64-msvc-1.33.0.tgz#3405af5f00ccad6361e0597732fc9febcec3d9e3"
+  integrity sha512-iwQ+8rHQy3ewC4c43Ik3UZ8TCC/rjShP3r/8TOPw4fT8wQmW7dS3BNNHPK+LWz9qNrObATJ4MZEEZVRneckOBw==
 
-lightningcss-cli-win32-x64-msvc@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli-win32-x64-msvc/-/lightningcss-cli-win32-x64-msvc-1.32.0.tgz#ed73710b394d972af778a02760a2d230b0055ad2"
-  integrity sha512-nOBHLPeePXZpGR4Ptp+gkOIkr9pxlq2dFmO954ol5zBi/iOKxuD1hUTIQ7aG+ldKIx4eH9jwoTfZ6owUkm1paA==
+lightningcss-cli-win32-x64-msvc@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli-win32-x64-msvc/-/lightningcss-cli-win32-x64-msvc-1.33.0.tgz#39038d88ed8a4a34f04e474c8c0aadd13e773788"
+  integrity sha512-sgtNPw2gxnY8OzCCMTKCkHSIiBYb/wfXLpLMmDIJFzcX2OETY+VOnQd7OBHx+hVSlrMU7iWL6oJ5rc+nQwteVA==
 
-lightningcss-cli@1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-cli/-/lightningcss-cli-1.32.0.tgz#c9b95596d86e60b6b4ee8fb3e43a61676f83c9b4"
-  integrity sha512-IFb/ChmSEbeWU3xeRybR6WFlJXCvfDS84//PUzLrRACgvoWrwRJBmcPS9azSo7LMh5QqEuyKanPBByhKM5z01Q==
+lightningcss-cli@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-cli/-/lightningcss-cli-1.33.0.tgz#614c6bb6fe2c27e1e3233334575a1288e0aa06ed"
+  integrity sha512-/tBcBZlBFFxy1iYKDC/HSH/NEjv7Frq6dmDVKRbhGJQI/gFJIJ1/4ZXclxJkd0eEjBjDc5MY0YugHcvJVVGJVg==
   dependencies:
     detect-libc "^2.0.3"
   optionalDependencies:
-    lightningcss-cli-android-arm64 "1.32.0"
-    lightningcss-cli-darwin-arm64 "1.32.0"
-    lightningcss-cli-darwin-x64 "1.32.0"
-    lightningcss-cli-freebsd-x64 "1.32.0"
-    lightningcss-cli-linux-arm-gnueabihf "1.32.0"
-    lightningcss-cli-linux-arm64-gnu "1.32.0"
-    lightningcss-cli-linux-arm64-musl "1.32.0"
-    lightningcss-cli-linux-x64-gnu "1.32.0"
-    lightningcss-cli-linux-x64-musl "1.32.0"
-    lightningcss-cli-win32-arm64-msvc "1.32.0"
-    lightningcss-cli-win32-x64-msvc "1.32.0"
+    lightningcss-cli-android-arm64 "1.33.0"
+    lightningcss-cli-darwin-arm64 "1.33.0"
+    lightningcss-cli-darwin-x64 "1.33.0"
+    lightningcss-cli-freebsd-x64 "1.33.0"
+    lightningcss-cli-linux-arm-gnueabihf "1.33.0"
+    lightningcss-cli-linux-arm64-gnu "1.33.0"
+    lightningcss-cli-linux-arm64-musl "1.33.0"
+    lightningcss-cli-linux-x64-gnu "1.33.0"
+    lightningcss-cli-linux-x64-musl "1.33.0"
+    lightningcss-cli-win32-arm64-msvc "1.33.0"
+    lightningcss-cli-win32-x64-msvc "1.33.0"
 
 node-addon-api@^7.0.0:
   version "7.1.1"
